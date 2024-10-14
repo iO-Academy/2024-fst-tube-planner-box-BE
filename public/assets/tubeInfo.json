@@ -1,0 +1,2452 @@
+{
+  "Bakerloo": [
+    {
+      "code": "BST",
+      "name": "Baker Street",
+      "timeToNext": 196,
+      "zone": 5
+    },
+    {
+      "code": "CHX",
+      "name": "Charing Cross",
+      "timeToPrev": 196,
+      "timeToNext": 199,
+      "zone": 3
+    },
+    {
+      "code": "ERB",
+      "name": "Edgware Road (Bakerloo)",
+      "timeToPrev": 199,
+      "timeToNext": 234,
+      "zone": 3
+    },
+    {
+      "code": "ELE",
+      "name": "Elephant and Castle",
+      "timeToPrev": 234,
+      "timeToNext": 269,
+      "zone": 3
+    },
+    {
+      "code": "EMB",
+      "name": "Embankment",
+      "timeToPrev": 269,
+      "timeToNext": 201,
+      "zone": 1
+    },
+    {
+      "code": "HSD",
+      "name": "Harlesden",
+      "timeToPrev": 201,
+      "timeToNext": 120,
+      "zone": 2
+    },
+    {
+      "code": "HAW",
+      "name": "Harrow and Wealdstone",
+      "timeToPrev": 120,
+      "timeToNext": 76,
+      "zone": 3
+    },
+    {
+      "code": "KGN",
+      "name": "Kensal Green",
+      "timeToPrev": 76,
+      "timeToNext": 93,
+      "zone": 5
+    },
+    {
+      "code": "KNT",
+      "name": "Kenton",
+      "timeToPrev": 93,
+      "timeToNext": 98,
+      "zone": 5
+    },
+    {
+      "code": "KPK",
+      "name": "Kilburn Park",
+      "timeToPrev": 98,
+      "timeToNext": 252,
+      "zone": 5
+    },
+    {
+      "code": "LAM",
+      "name": "Lambeth North",
+      "timeToPrev": 252,
+      "timeToNext": 143,
+      "zone": 6
+    },
+    {
+      "code": "MDV",
+      "name": "Maida Vale",
+      "timeToPrev": 143,
+      "timeToNext": 126,
+      "zone": 3
+    },
+    {
+      "code": "MYB",
+      "name": "Marylebone",
+      "timeToPrev": 126,
+      "timeToNext": 53,
+      "zone": 3
+    },
+    {
+      "code": "NWM",
+      "name": "North Wembley",
+      "timeToPrev": 53,
+      "timeToNext": 344,
+      "zone": 2
+    },
+    {
+      "code": "OXC",
+      "name": "Oxford Circus",
+      "timeToPrev": 344,
+      "timeToNext": 344,
+      "zone": 1
+    },
+    {
+      "code": "PAD",
+      "name": "Paddington",
+      "timeToPrev": 344,
+      "timeToNext": 325,
+      "zone": 2
+    },
+    {
+      "code": "PIC",
+      "name": "Piccadilly Circus",
+      "timeToPrev": 325,
+      "timeToNext": 270,
+      "zone": 3
+    },
+    {
+      "code": "QPK",
+      "name": "Queen's Park",
+      "timeToPrev": 270,
+      "timeToNext": 126,
+      "zone": 6
+    },
+    {
+      "code": "RPK",
+      "name": "Regent's Park",
+      "timeToPrev": 126,
+      "timeToNext": 38,
+      "zone": 4
+    },
+    {
+      "code": "SKT",
+      "name": "South Kenton",
+      "timeToPrev": 38,
+      "timeToNext": 271,
+      "zone": 2
+    },
+    {
+      "code": "SPK",
+      "name": "Stonebridge Park",
+      "timeToPrev": 271,
+      "timeToNext": 146,
+      "zone": 1
+    },
+    {
+      "code": "WAR",
+      "name": "Warwick Avenue",
+      "timeToPrev": 146,
+      "timeToNext": 156,
+      "zone": 4
+    },
+    {
+      "code": "WLO",
+      "name": "Waterloo",
+      "timeToPrev": 156,
+      "timeToNext": 265,
+      "zone": 3
+    },
+    {
+      "code": "WEM",
+      "name": "Wembley Central",
+      "timeToPrev": 265,
+      "timeToNext": 303,
+      "zone": 1
+    },
+    {
+      "code": "WJN",
+      "name": "Willesden Junction",
+      "timeToPrev": 303,
+      "zone": 3
+    }
+  ],
+  "Central": [
+    {
+      "code": "BNK",
+      "name": "Bank",
+      "timeToNext": 209,
+      "zone": 2
+    },
+    {
+      "code": "BDE",
+      "name": "Barkingside",
+      "timeToPrev": 209,
+      "timeToNext": 39,
+      "zone": 2
+    },
+    {
+      "code": "BNG",
+      "name": "Bethnal Green",
+      "timeToPrev": 39,
+      "timeToNext": 94,
+      "zone": 3
+    },
+    {
+      "code": "BDS",
+      "name": "Bond Street",
+      "timeToPrev": 94,
+      "timeToNext": 261,
+      "zone": 5
+    },
+    {
+      "code": "BHL",
+      "name": "Buckhurst Hill",
+      "timeToPrev": 261,
+      "timeToNext": 63,
+      "zone": 1
+    },
+    {
+      "code": "CYL",
+      "name": "Chancery Lane",
+      "timeToPrev": 63,
+      "timeToNext": 235,
+      "zone": 3
+    },
+    {
+      "code": "CHG",
+      "name": "Chigwell",
+      "timeToPrev": 235,
+      "timeToNext": 111,
+      "zone": 4
+    },
+    {
+      "code": "DEB",
+      "name": "Debden",
+      "timeToPrev": 111,
+      "timeToNext": 217,
+      "zone": 6
+    },
+    {
+      "code": "EBY",
+      "name": "Ealing Broadway",
+      "timeToPrev": 217,
+      "timeToNext": 153,
+      "zone": 1
+    },
+    {
+      "code": "EAC",
+      "name": "East Acton",
+      "timeToPrev": 153,
+      "timeToNext": 203,
+      "zone": 2
+    },
+    {
+      "code": "EPP",
+      "name": "Epping",
+      "timeToPrev": 203,
+      "timeToNext": 211,
+      "zone": 6
+    },
+    {
+      "code": "FLP",
+      "name": "Fairlop",
+      "timeToPrev": 211,
+      "timeToNext": 172,
+      "zone": 4
+    },
+    {
+      "code": "GHL",
+      "name": "Gants Hill",
+      "timeToPrev": 172,
+      "timeToNext": 220,
+      "zone": 6
+    },
+    {
+      "code": "GRH",
+      "name": "Grange Hill",
+      "timeToPrev": 220,
+      "timeToNext": 318,
+      "zone": 3
+    },
+    {
+      "code": "GFD",
+      "name": "Greenford",
+      "timeToPrev": 318,
+      "timeToNext": 38,
+      "zone": 1
+    },
+    {
+      "code": "HAI",
+      "name": "Hainault",
+      "timeToPrev": 38,
+      "timeToNext": 255,
+      "zone": 5
+    },
+    {
+      "code": "HLN",
+      "name": "Hanger Lane",
+      "timeToPrev": 255,
+      "timeToNext": 360,
+      "zone": 4
+    },
+    {
+      "code": "HOL",
+      "name": "Holborn",
+      "timeToPrev": 360,
+      "timeToNext": 283,
+      "zone": 3
+    },
+    {
+      "code": "HPK",
+      "name": "Holland Park",
+      "timeToPrev": 283,
+      "timeToNext": 161,
+      "zone": 2
+    },
+    {
+      "code": "LAN",
+      "name": "Lancaster Gate",
+      "timeToPrev": 161,
+      "timeToNext": 201,
+      "zone": 3
+    },
+    {
+      "code": "LEY",
+      "name": "Leyton",
+      "timeToPrev": 201,
+      "timeToNext": 153,
+      "zone": 2
+    },
+    {
+      "code": "LYS",
+      "name": "Leytonstone",
+      "timeToPrev": 153,
+      "timeToNext": 312,
+      "zone": 5
+    },
+    {
+      "code": "LST",
+      "name": "Liverpool Street",
+      "timeToPrev": 312,
+      "timeToNext": 77,
+      "zone": 6
+    },
+    {
+      "code": "LTN",
+      "name": "Loughton",
+      "timeToPrev": 77,
+      "timeToNext": 31,
+      "zone": 1
+    },
+    {
+      "code": "MAR",
+      "name": "Marble Arch",
+      "timeToPrev": 31,
+      "timeToNext": 357,
+      "zone": 3
+    },
+    {
+      "code": "MLE",
+      "name": "Mile End",
+      "timeToPrev": 357,
+      "timeToNext": 249,
+      "zone": 2
+    },
+    {
+      "code": "NEP",
+      "name": "Newbury Park",
+      "timeToPrev": 249,
+      "timeToNext": 272,
+      "zone": 1
+    },
+    {
+      "code": "NAC",
+      "name": "North Acton",
+      "timeToPrev": 272,
+      "timeToNext": 261,
+      "zone": 2
+    },
+    {
+      "code": "NHT",
+      "name": "Northolt",
+      "timeToPrev": 261,
+      "timeToNext": 214,
+      "zone": 3
+    },
+    {
+      "code": "NHG",
+      "name": "Notting Hill Gate",
+      "timeToPrev": 214,
+      "timeToNext": 33,
+      "zone": 1
+    },
+    {
+      "code": "OXC",
+      "name": "Oxford Circus",
+      "timeToPrev": 33,
+      "timeToNext": 169,
+      "zone": 4
+    },
+    {
+      "code": "PER",
+      "name": "Perivale",
+      "timeToPrev": 169,
+      "timeToNext": 227,
+      "zone": 5
+    },
+    {
+      "code": "QWY",
+      "name": "Queensway",
+      "timeToPrev": 227,
+      "timeToNext": 206,
+      "zone": 3
+    },
+    {
+      "code": "RED",
+      "name": "Redbridge",
+      "timeToPrev": 206,
+      "timeToNext": 323,
+      "zone": 1
+    },
+    {
+      "code": "ROD",
+      "name": "Roding Valley",
+      "timeToPrev": 323,
+      "timeToNext": 255,
+      "zone": 3
+    },
+    {
+      "code": "RUG",
+      "name": "Ruislip Gardens",
+      "timeToPrev": 255,
+      "timeToNext": 289,
+      "zone": 5
+    },
+    {
+      "code": "SBC",
+      "name": "Shepherd's Bush",
+      "timeToPrev": 289,
+      "timeToNext": 40,
+      "zone": 6
+    },
+    {
+      "code": "SNB",
+      "name": "Snaresbrook",
+      "timeToPrev": 40,
+      "timeToNext": 321,
+      "zone": 4
+    },
+    {
+      "code": "SRP",
+      "name": "South Ruislip",
+      "timeToPrev": 321,
+      "timeToNext": 280,
+      "zone": 5
+    },
+    {
+      "code": "SWF",
+      "name": "South Woodford",
+      "timeToPrev": 280,
+      "timeToNext": 101,
+      "zone": 5
+    },
+    {
+      "code": "STP",
+      "name": "St Paul's",
+      "timeToPrev": 101,
+      "timeToNext": 95,
+      "zone": 2
+    },
+    {
+      "code": "SFD",
+      "name": "Stratford",
+      "timeToPrev": 95,
+      "timeToNext": 117,
+      "zone": 2
+    },
+    {
+      "code": "THB",
+      "name": "Theydon Bois",
+      "timeToPrev": 117,
+      "timeToNext": 131,
+      "zone": 6
+    },
+    {
+      "code": "TCR",
+      "name": "Tottenham Court Road",
+      "timeToPrev": 131,
+      "timeToNext": 58,
+      "zone": 3
+    },
+    {
+      "code": "WAN",
+      "name": "Wanstead",
+      "timeToPrev": 58,
+      "timeToNext": 82,
+      "zone": 4
+    },
+    {
+      "code": "WAC",
+      "name": "West Acton",
+      "timeToPrev": 82,
+      "timeToNext": 122,
+      "zone": 2
+    },
+    {
+      "code": "WRP",
+      "name": "West Ruislip",
+      "timeToPrev": 122,
+      "timeToNext": 289,
+      "zone": 5
+    },
+    {
+      "code": "WCT",
+      "name": "White City",
+      "timeToPrev": 289,
+      "timeToNext": 272,
+      "zone": 4
+    },
+    {
+      "code": "WFD",
+      "name": "Woodford",
+      "timeToPrev": 272,
+      "zone": 1
+    }
+  ],
+  "District": [
+    {
+      "code": "ACT",
+      "name": "Acton Town",
+      "timeToNext": 143,
+      "zone": 5
+    },
+    {
+      "code": "ALE",
+      "name": "Aldgate East",
+      "timeToPrev": 143,
+      "timeToNext": 180,
+      "zone": 1
+    },
+    {
+      "code": "BKG",
+      "name": "Barking",
+      "timeToPrev": 180,
+      "timeToNext": 275,
+      "zone": 6
+    },
+    {
+      "code": "BCT",
+      "name": "Barons Court",
+      "timeToPrev": 275,
+      "timeToNext": 151,
+      "zone": 1
+    },
+    {
+      "code": "BEC",
+      "name": "Becontree",
+      "timeToPrev": 151,
+      "timeToNext": 206,
+      "zone": 4
+    },
+    {
+      "code": "BLF",
+      "name": "Blackfriars",
+      "timeToPrev": 206,
+      "timeToNext": 104,
+      "zone": 5
+    },
+    {
+      "code": "BWR",
+      "name": "Bow Road",
+      "timeToPrev": 104,
+      "timeToNext": 51,
+      "zone": 4
+    },
+    {
+      "code": "BBB",
+      "name": "Bromley-by-Bow",
+      "timeToPrev": 51,
+      "timeToNext": 153,
+      "zone": 5
+    },
+    {
+      "code": "CST",
+      "name": "Cannon Street",
+      "timeToPrev": 153,
+      "timeToNext": 39,
+      "zone": 6
+    },
+    {
+      "code": "CHP",
+      "name": "Chiswick Park",
+      "timeToPrev": 39,
+      "timeToNext": 264,
+      "zone": 5
+    },
+    {
+      "code": "DGE",
+      "name": "Dagenham East",
+      "timeToPrev": 264,
+      "timeToNext": 140,
+      "zone": 1
+    },
+    {
+      "code": "DGH",
+      "name": "Dagenham Heathway",
+      "timeToPrev": 140,
+      "timeToNext": 297,
+      "zone": 3
+    },
+    {
+      "code": "EBY",
+      "name": "Ealing Broadway",
+      "timeToPrev": 297,
+      "timeToNext": 116,
+      "zone": 3
+    },
+    {
+      "code": "ECM",
+      "name": "Ealing Common",
+      "timeToPrev": 116,
+      "timeToNext": 190,
+      "zone": 3
+    },
+    {
+      "code": "ECT",
+      "name": "Earl's Court",
+      "timeToPrev": 190,
+      "timeToNext": 193,
+      "zone": 6
+    },
+    {
+      "code": "EHM",
+      "name": "East Ham",
+      "timeToPrev": 193,
+      "timeToNext": 63,
+      "zone": 3
+    },
+    {
+      "code": "EPY",
+      "name": "East Putney",
+      "timeToPrev": 63,
+      "timeToNext": 170,
+      "zone": 1
+    },
+    {
+      "code": "ERD",
+      "name": "Edgware Road (H & C)",
+      "timeToPrev": 170,
+      "timeToNext": 165,
+      "zone": 5
+    },
+    {
+      "code": "EPK",
+      "name": "Elm Park",
+      "timeToPrev": 165,
+      "timeToNext": 70,
+      "zone": 2
+    },
+    {
+      "code": "EMB",
+      "name": "Embankment",
+      "timeToPrev": 70,
+      "timeToNext": 274,
+      "zone": 3
+    },
+    {
+      "code": "FBY",
+      "name": "Fulham Broadway",
+      "timeToPrev": 274,
+      "timeToNext": 42,
+      "zone": 1
+    },
+    {
+      "code": "GRD",
+      "name": "Gloucester Road",
+      "timeToPrev": 42,
+      "timeToNext": 45,
+      "zone": 6
+    },
+    {
+      "code": "GUN",
+      "name": "Gunnersbury",
+      "timeToPrev": 45,
+      "timeToNext": 282,
+      "zone": 6
+    },
+    {
+      "code": "HMD",
+      "name": "Hammersmith (District and Picc)",
+      "timeToPrev": 282,
+      "timeToNext": 150,
+      "zone": 2
+    },
+    {
+      "code": "HST",
+      "name": "High Street Kensington",
+      "timeToPrev": 150,
+      "timeToNext": 37,
+      "zone": 5
+    },
+    {
+      "code": "HCH",
+      "name": "Hornchurch",
+      "timeToPrev": 37,
+      "timeToNext": 118,
+      "zone": 3
+    },
+    {
+      "code": "OLY",
+      "name": "Kensington (Olympia)",
+      "timeToPrev": 118,
+      "timeToNext": 219,
+      "zone": 3
+    },
+    {
+      "code": "KEW",
+      "name": "Kew Gardens",
+      "timeToPrev": 219,
+      "timeToNext": 244,
+      "zone": 2
+    },
+    {
+      "code": "MAN",
+      "name": "Mansion House",
+      "timeToPrev": 244,
+      "timeToNext": 43,
+      "zone": 3
+    },
+    {
+      "code": "MLE",
+      "name": "Mile End",
+      "timeToPrev": 43,
+      "timeToNext": 64,
+      "zone": 1
+    },
+    {
+      "code": "MON",
+      "name": "Monument",
+      "timeToPrev": 64,
+      "timeToNext": 230,
+      "zone": 5
+    },
+    {
+      "code": "OLY",
+      "name": "Kensington (Olympia)",
+      "timeToPrev": 230,
+      "timeToNext": 104,
+      "zone": 5
+    },
+    {
+      "code": "PGR",
+      "name": "Parsons Green",
+      "timeToPrev": 104,
+      "timeToNext": 42,
+      "zone": 2
+    },
+    {
+      "code": "PLW",
+      "name": "Plaistow",
+      "timeToPrev": 42,
+      "timeToNext": 87,
+      "zone": 5
+    },
+    {
+      "code": "PUT",
+      "name": "Putney Bridge",
+      "timeToPrev": 87,
+      "timeToNext": 231,
+      "zone": 6
+    },
+    {
+      "code": "RCP",
+      "name": "Ravenscourt Park",
+      "timeToPrev": 231,
+      "timeToNext": 152,
+      "zone": 3
+    },
+    {
+      "code": "RMD",
+      "name": "Richmond",
+      "timeToPrev": 152,
+      "timeToNext": 331,
+      "zone": 1
+    },
+    {
+      "code": "SSQ",
+      "name": "Sloane Square",
+      "timeToPrev": 331,
+      "timeToNext": 62,
+      "zone": 3
+    },
+    {
+      "code": "SKN",
+      "name": "South Kensington",
+      "timeToPrev": 62,
+      "timeToNext": 144,
+      "zone": 4
+    },
+    {
+      "code": "SFS",
+      "name": "Southfields",
+      "timeToPrev": 144,
+      "timeToNext": 151,
+      "zone": 1
+    },
+    {
+      "code": "SJP",
+      "name": "St. James's Park",
+      "timeToPrev": 151,
+      "timeToNext": 183,
+      "zone": 5
+    },
+    {
+      "code": "STB",
+      "name": "Stamford Brook",
+      "timeToPrev": 183,
+      "timeToNext": 342,
+      "zone": 1
+    },
+    {
+      "code": "STG",
+      "name": "Stepney Green",
+      "timeToPrev": 342,
+      "timeToNext": 247,
+      "zone": 4
+    },
+    {
+      "code": "TEM",
+      "name": "Temple",
+      "timeToPrev": 247,
+      "timeToNext": 59,
+      "zone": 1
+    },
+    {
+      "code": "THL",
+      "name": "Tower Hill",
+      "timeToPrev": 59,
+      "timeToNext": 148,
+      "zone": 2
+    },
+    {
+      "code": "TGR",
+      "name": "Turnham Green",
+      "timeToPrev": 148,
+      "timeToNext": 312,
+      "zone": 4
+    },
+    {
+      "code": "UPM",
+      "name": "Upminster",
+      "timeToPrev": 312,
+      "timeToNext": 335,
+      "zone": 6
+    },
+    {
+      "code": "UPB",
+      "name": "Upminster Bridge",
+      "timeToPrev": 335,
+      "timeToNext": 74,
+      "zone": 4
+    },
+    {
+      "code": "UPY",
+      "name": "Upney",
+      "timeToPrev": 74,
+      "timeToNext": 128,
+      "zone": 5
+    },
+    {
+      "code": "UPK",
+      "name": "Upton Park",
+      "timeToPrev": 128,
+      "timeToNext": 321,
+      "zone": 5
+    },
+    {
+      "code": "VIC",
+      "name": "Victoria",
+      "timeToPrev": 321,
+      "timeToNext": 290,
+      "zone": 4
+    },
+    {
+      "code": "WBT",
+      "name": "West Brompton",
+      "timeToPrev": 290,
+      "timeToNext": 261,
+      "zone": 1
+    },
+    {
+      "code": "WHM",
+      "name": "West Ham",
+      "timeToPrev": 261,
+      "timeToNext": 300,
+      "zone": 1
+    },
+    {
+      "code": "WKN",
+      "name": "West Kensington",
+      "timeToPrev": 300,
+      "timeToNext": 356,
+      "zone": 4
+    },
+    {
+      "code": "WMS",
+      "name": "Westminster",
+      "timeToPrev": 356,
+      "timeToNext": 265,
+      "zone": 3
+    },
+    {
+      "code": "WCL",
+      "name": "Whitechapel",
+      "timeToPrev": 265,
+      "timeToNext": 343,
+      "zone": 3
+    },
+    {
+      "code": "WDN",
+      "name": "Wimbledon",
+      "timeToPrev": 343,
+      "timeToNext": 107,
+      "zone": 1
+    },
+    {
+      "code": "WMP",
+      "name": "Wimbledon Park",
+      "timeToPrev": 107,
+      "zone": 4
+    }
+  ],
+  "Hammersmith_and_Circle": [
+    {
+      "code": "ALD",
+      "name": "Aldgate",
+      "timeToNext": 39,
+      "zone": 3
+    },
+    {
+      "code": "ALE",
+      "name": "Aldgate East",
+      "timeToPrev": 39,
+      "timeToNext": 141,
+      "zone": 3
+    },
+    {
+      "code": "BST",
+      "name": "Baker Street",
+      "timeToPrev": 141,
+      "timeToNext": 149,
+      "zone": 3
+    },
+    {
+      "code": "BAR",
+      "name": "Barbican",
+      "timeToPrev": 149,
+      "timeToNext": 132,
+      "zone": 3
+    },
+    {
+      "code": "BKG",
+      "name": "Barking",
+      "timeToPrev": 132,
+      "timeToNext": 59,
+      "zone": 1
+    },
+    {
+      "code": "BLF",
+      "name": "Blackfriars",
+      "timeToPrev": 59,
+      "timeToNext": 313,
+      "zone": 1
+    },
+    {
+      "code": "BWR",
+      "name": "Bow Road",
+      "timeToPrev": 313,
+      "timeToNext": 105,
+      "zone": 3
+    },
+    {
+      "code": "BBB",
+      "name": "Bromley-by-Bow",
+      "timeToPrev": 105,
+      "timeToNext": 299,
+      "zone": 1
+    },
+    {
+      "code": "CST",
+      "name": "Cannon Street",
+      "timeToPrev": 299,
+      "timeToNext": 96,
+      "zone": 5
+    },
+    {
+      "code": "EHM",
+      "name": "East Ham",
+      "timeToPrev": 96,
+      "timeToNext": 180,
+      "zone": 6
+    },
+    {
+      "code": "ERD",
+      "name": "Edgware Road (H & C)",
+      "timeToPrev": 180,
+      "timeToNext": 78,
+      "zone": 4
+    },
+    {
+      "code": "EMB",
+      "name": "Embankment",
+      "timeToPrev": 78,
+      "timeToNext": 303,
+      "zone": 6
+    },
+    {
+      "code": "ESQ",
+      "name": "Euston Square",
+      "timeToPrev": 303,
+      "timeToNext": 336,
+      "zone": 4
+    },
+    {
+      "code": "FAR",
+      "name": "Farringdon",
+      "timeToPrev": 336,
+      "timeToNext": 146,
+      "zone": 3
+    },
+    {
+      "code": "GRD",
+      "name": "Gloucester Road",
+      "timeToPrev": 146,
+      "timeToNext": 112,
+      "zone": 3
+    },
+    {
+      "code": "GPS",
+      "name": "Great Portland Street",
+      "timeToPrev": 112,
+      "timeToNext": 331,
+      "zone": 4
+    },
+    {
+      "code": "HMS",
+      "name": "Hammersmith",
+      "timeToPrev": 331,
+      "timeToNext": 33,
+      "zone": 3
+    },
+    {
+      "code": "HST",
+      "name": "High Street Kensington",
+      "timeToPrev": 33,
+      "timeToNext": 252,
+      "zone": 2
+    },
+    {
+      "code": "KXX",
+      "name": "King's Cross St Pancras",
+      "timeToPrev": 252,
+      "timeToNext": 337,
+      "zone": 1
+    },
+    {
+      "code": "LST",
+      "name": "Liverpool Street",
+      "timeToPrev": 337,
+      "timeToNext": 321,
+      "zone": 5
+    },
+    {
+      "code": "MAN",
+      "name": "Mansion House",
+      "timeToPrev": 321,
+      "timeToNext": 171,
+      "zone": 6
+    },
+    {
+      "code": "MLE",
+      "name": "Mile End",
+      "timeToPrev": 171,
+      "timeToNext": 59,
+      "zone": 2
+    },
+    {
+      "code": "MON",
+      "name": "Monument",
+      "timeToPrev": 59,
+      "timeToNext": 167,
+      "zone": 4
+    },
+    {
+      "code": "MGT",
+      "name": "Moorgate",
+      "timeToPrev": 167,
+      "timeToNext": 337,
+      "zone": 3
+    },
+    {
+      "code": "PAD",
+      "name": "Paddington",
+      "timeToPrev": 337,
+      "timeToNext": 160,
+      "zone": 2
+    },
+    {
+      "code": "PLW",
+      "name": "Plaistow",
+      "timeToPrev": 160,
+      "timeToNext": 91,
+      "zone": 6
+    },
+    {
+      "code": "SSQ",
+      "name": "Sloane Square",
+      "timeToPrev": 91,
+      "timeToNext": 161,
+      "zone": 3
+    },
+    {
+      "code": "SKN",
+      "name": "South Kensington",
+      "timeToPrev": 161,
+      "timeToNext": 323,
+      "zone": 3
+    },
+    {
+      "code": "SJP",
+      "name": "St. James's Park",
+      "timeToPrev": 323,
+      "timeToNext": 194,
+      "zone": 3
+    },
+    {
+      "code": "STG",
+      "name": "Stepney Green",
+      "timeToPrev": 194,
+      "timeToNext": 168,
+      "zone": 1
+    },
+    {
+      "code": "TEM",
+      "name": "Temple",
+      "timeToPrev": 168,
+      "timeToNext": 89,
+      "zone": 6
+    },
+    {
+      "code": "THL",
+      "name": "Tower Hill",
+      "timeToPrev": 89,
+      "timeToNext": 49,
+      "zone": 3
+    },
+    {
+      "code": "UPK",
+      "name": "Upton Park",
+      "timeToPrev": 49,
+      "timeToNext": 316,
+      "zone": 2
+    },
+    {
+      "code": "VIC",
+      "name": "Victoria",
+      "timeToPrev": 316,
+      "timeToNext": 94,
+      "zone": 3
+    },
+    {
+      "code": "WHM",
+      "name": "West Ham",
+      "timeToPrev": 94,
+      "timeToNext": 225,
+      "zone": 3
+    },
+    {
+      "code": "WMS",
+      "name": "Westminster",
+      "timeToPrev": 225,
+      "timeToNext": 222,
+      "zone": 4
+    },
+    {
+      "code": "WCL",
+      "name": "Whitechapel",
+      "timeToPrev": 222,
+      "zone": 1
+    }
+  ],
+  "Jubilee": [
+    {
+      "code": "BST",
+      "name": "Baker Street",
+      "timeToNext": 263,
+      "zone": 4
+    },
+    {
+      "code": "BER",
+      "name": "Bermondsey",
+      "timeToPrev": 263,
+      "timeToNext": 191,
+      "zone": 6
+    },
+    {
+      "code": "BDS",
+      "name": "Bond Street",
+      "timeToPrev": 191,
+      "timeToNext": 212,
+      "zone": 2
+    },
+    {
+      "code": "CWR",
+      "name": "Canada Water",
+      "timeToPrev": 212,
+      "timeToNext": 228,
+      "zone": 6
+    },
+    {
+      "code": "CWF",
+      "name": "Canary Wharf",
+      "timeToPrev": 228,
+      "timeToNext": 154,
+      "zone": 4
+    },
+    {
+      "code": "CNT",
+      "name": "Canning Town",
+      "timeToPrev": 154,
+      "timeToNext": 175,
+      "zone": 2
+    },
+    {
+      "code": "CPK",
+      "name": "Canons Park",
+      "timeToPrev": 175,
+      "timeToNext": 117,
+      "zone": 4
+    },
+    {
+      "code": "DHL",
+      "name": "Dollis Hill",
+      "timeToPrev": 117,
+      "timeToNext": 41,
+      "zone": 3
+    },
+    {
+      "code": "FRD",
+      "name": "Finchley Road",
+      "timeToPrev": 41,
+      "timeToNext": 100,
+      "zone": 5
+    },
+    {
+      "code": "GPK",
+      "name": "Green Park",
+      "timeToPrev": 100,
+      "timeToNext": 164,
+      "zone": 6
+    },
+    {
+      "code": "KIL",
+      "name": "Kilburn",
+      "timeToPrev": 164,
+      "timeToNext": 136,
+      "zone": 1
+    },
+    {
+      "code": "KBY",
+      "name": "Kingsbury",
+      "timeToPrev": 136,
+      "timeToNext": 48,
+      "zone": 1
+    },
+    {
+      "code": "LON",
+      "name": "London Bridge",
+      "timeToPrev": 48,
+      "timeToNext": 149,
+      "zone": 1
+    },
+    {
+      "code": "NEA",
+      "name": "Neasden",
+      "timeToPrev": 149,
+      "timeToNext": 194,
+      "zone": 3
+    },
+    {
+      "code": "NGW",
+      "name": "North Greenwich",
+      "timeToPrev": 194,
+      "timeToNext": 301,
+      "zone": 1
+    },
+    {
+      "code": "QBY",
+      "name": "Queensbury",
+      "timeToPrev": 301,
+      "timeToNext": 170,
+      "zone": 1
+    },
+    {
+      "code": "SWK",
+      "name": "Southwark",
+      "timeToPrev": 170,
+      "timeToNext": 211,
+      "zone": 2
+    },
+    {
+      "code": "SJW",
+      "name": "St John's Wood",
+      "timeToPrev": 211,
+      "timeToNext": 43,
+      "zone": 5
+    },
+    {
+      "code": "STA",
+      "name": "Stanmore",
+      "timeToPrev": 43,
+      "timeToNext": 81,
+      "zone": 4
+    },
+    {
+      "code": "SFD",
+      "name": "Stratford",
+      "timeToPrev": 81,
+      "timeToNext": 214,
+      "zone": 3
+    },
+    {
+      "code": "SWC",
+      "name": "Swiss Cottage",
+      "timeToPrev": 214,
+      "timeToNext": 172,
+      "zone": 1
+    },
+    {
+      "code": "WLO",
+      "name": "Waterloo",
+      "timeToPrev": 172,
+      "timeToNext": 32,
+      "zone": 2
+    },
+    {
+      "code": "WPK",
+      "name": "Wembley Park",
+      "timeToPrev": 32,
+      "timeToNext": 36,
+      "zone": 1
+    },
+    {
+      "code": "WHM",
+      "name": "West Ham",
+      "timeToPrev": 36,
+      "timeToNext": 153,
+      "zone": 1
+    },
+    {
+      "code": "WHD",
+      "name": "West Hampstead",
+      "timeToPrev": 153,
+      "timeToNext": 297,
+      "zone": 3
+    },
+    {
+      "code": "WMS",
+      "name": "Westminster",
+      "timeToPrev": 297,
+      "timeToNext": 250,
+      "zone": 4
+    },
+    {
+      "code": "WLG",
+      "name": "Willesden Green",
+      "timeToPrev": 250,
+      "zone": 6
+    }
+  ],
+  "Metropolitan": [
+    {
+      "code": "ALD",
+      "name": "Aldgate",
+      "timeToNext": 231,
+      "zone": 6
+    },
+    {
+      "code": "AME",
+      "name": "Amersham",
+      "timeToPrev": 231,
+      "timeToNext": 297,
+      "zone": 4
+    },
+    {
+      "code": "BST",
+      "name": "Baker Street",
+      "timeToPrev": 297,
+      "timeToNext": 30,
+      "zone": 6
+    },
+    {
+      "code": "BAR",
+      "name": "Barbican",
+      "timeToPrev": 30,
+      "timeToNext": 286,
+      "zone": 5
+    },
+    {
+      "code": "CLF",
+      "name": "Chalfont and Latimer",
+      "timeToPrev": 286,
+      "timeToNext": 235,
+      "zone": 5
+    },
+    {
+      "code": "CWD",
+      "name": "Chorleywood",
+      "timeToPrev": 235,
+      "timeToNext": 228,
+      "zone": 6
+    },
+    {
+      "code": "CLW",
+      "name": "Colliers Wood",
+      "timeToPrev": 228,
+      "timeToNext": 244,
+      "zone": 5
+    },
+    {
+      "code": "CRX",
+      "name": "Croxley",
+      "timeToPrev": 244,
+      "timeToNext": 34,
+      "zone": 1
+    },
+    {
+      "code": "ETE",
+      "name": "Eastcote",
+      "timeToPrev": 34,
+      "timeToNext": 216,
+      "zone": 6
+    },
+    {
+      "code": "ESQ",
+      "name": "Euston Square",
+      "timeToPrev": 216,
+      "timeToNext": 232,
+      "zone": 4
+    },
+    {
+      "code": "FAR",
+      "name": "Farringdon",
+      "timeToPrev": 232,
+      "timeToNext": 213,
+      "zone": 5
+    },
+    {
+      "code": "FRD",
+      "name": "Finchley Road",
+      "timeToPrev": 213,
+      "timeToNext": 88,
+      "zone": 5
+    },
+    {
+      "code": "GPS",
+      "name": "Great Portland Street",
+      "timeToPrev": 88,
+      "timeToNext": 339,
+      "zone": 1
+    },
+    {
+      "code": "HOH",
+      "name": "Harrow on the Hill",
+      "timeToPrev": 339,
+      "timeToNext": 321,
+      "zone": 1
+    },
+    {
+      "code": "HDN",
+      "name": "Hillingdon",
+      "timeToPrev": 321,
+      "timeToNext": 268,
+      "zone": 6
+    },
+    {
+      "code": "ICK",
+      "name": "Ickenham",
+      "timeToPrev": 268,
+      "timeToNext": 240,
+      "zone": 3
+    },
+    {
+      "code": "KXX",
+      "name": "King's Cross St Pancras",
+      "timeToPrev": 240,
+      "timeToNext": 149,
+      "zone": 1
+    },
+    {
+      "code": "LST",
+      "name": "Liverpool Street",
+      "timeToPrev": 149,
+      "timeToNext": 341,
+      "zone": 4
+    },
+    {
+      "code": "MPK",
+      "name": "Moor Park",
+      "timeToPrev": 341,
+      "timeToNext": 188,
+      "zone": 5
+    },
+    {
+      "code": "MGT",
+      "name": "Moorgate",
+      "timeToPrev": 188,
+      "timeToNext": 360,
+      "zone": 1
+    },
+    {
+      "code": "NHR",
+      "name": "North Harrow",
+      "timeToPrev": 360,
+      "timeToNext": 252,
+      "zone": 1
+    },
+    {
+      "code": "NWP",
+      "name": "Northwick Park",
+      "timeToPrev": 252,
+      "timeToNext": 346,
+      "zone": 2
+    },
+    {
+      "code": "NWD",
+      "name": "Northwood",
+      "timeToPrev": 346,
+      "timeToNext": 167,
+      "zone": 4
+    },
+    {
+      "code": "NWH",
+      "name": "Northwood Hills",
+      "timeToPrev": 167,
+      "timeToNext": 145,
+      "zone": 3
+    },
+    {
+      "code": "PIN",
+      "name": "Pinner",
+      "timeToPrev": 145,
+      "timeToNext": 292,
+      "zone": 5
+    },
+    {
+      "code": "RLN",
+      "name": "Rayners Lane",
+      "timeToPrev": 292,
+      "timeToNext": 256,
+      "zone": 1
+    },
+    {
+      "code": "RKY",
+      "name": "Rickmansworth",
+      "timeToPrev": 256,
+      "timeToNext": 269,
+      "zone": 6
+    },
+    {
+      "code": "RUI",
+      "name": "Ruislip",
+      "timeToPrev": 269,
+      "timeToNext": 214,
+      "zone": 2
+    },
+    {
+      "code": "RUM",
+      "name": "Ruislip Manor",
+      "timeToPrev": 214,
+      "timeToNext": 240,
+      "zone": 1
+    },
+    {
+      "code": "UXB",
+      "name": "Uxbridge",
+      "timeToPrev": 240,
+      "timeToNext": 184,
+      "zone": 3
+    },
+    {
+      "code": "WAT",
+      "name": "Watford",
+      "timeToPrev": 184,
+      "timeToNext": 303,
+      "zone": 5
+    },
+    {
+      "code": "WPK",
+      "name": "Wembley Park",
+      "timeToPrev": 303,
+      "timeToNext": 313,
+      "zone": 4
+    },
+    {
+      "code": "WHR",
+      "name": "West Harrow",
+      "timeToPrev": 313,
+      "zone": 5
+    }
+  ],
+  "Northern": [
+    {
+      "code": "ANG",
+      "name": "Angel",
+      "timeToNext": 182,
+      "zone": 6
+    },
+    {
+      "code": "ARC",
+      "name": "Archway",
+      "timeToPrev": 182,
+      "timeToNext": 132,
+      "zone": 3
+    },
+    {
+      "code": "BAL",
+      "name": "Balham",
+      "timeToPrev": 132,
+      "timeToNext": 242,
+      "zone": 2
+    },
+    {
+      "code": "BNK",
+      "name": "Bank",
+      "timeToPrev": 242,
+      "timeToNext": 131,
+      "zone": 1
+    },
+    {
+      "code": "BPK",
+      "name": "Belsize Park",
+      "timeToPrev": 131,
+      "timeToNext": 257,
+      "zone": 1
+    },
+    {
+      "code": "BOR",
+      "name": "Borough",
+      "timeToPrev": 257,
+      "timeToNext": 224,
+      "zone": 4
+    },
+    {
+      "code": "BTX",
+      "name": "Brent Cross",
+      "timeToPrev": 224,
+      "timeToNext": 332,
+      "zone": 2
+    },
+    {
+      "code": "BUR",
+      "name": "Burnt Oak",
+      "timeToPrev": 332,
+      "timeToNext": 350,
+      "zone": 5
+    },
+    {
+      "code": "CTN",
+      "name": "Camden Town",
+      "timeToPrev": 350,
+      "timeToNext": 118,
+      "zone": 2
+    },
+    {
+      "code": "CHF",
+      "name": "Chalk Farm",
+      "timeToPrev": 118,
+      "timeToNext": 193,
+      "zone": 2
+    },
+    {
+      "code": "CHX",
+      "name": "Charing Cross",
+      "timeToPrev": 193,
+      "timeToNext": 360,
+      "zone": 2
+    },
+    {
+      "code": "CPC",
+      "name": "Clapham Common",
+      "timeToPrev": 360,
+      "timeToNext": 346,
+      "zone": 2
+    },
+    {
+      "code": "CPN",
+      "name": "Clapham North",
+      "timeToPrev": 346,
+      "timeToNext": 156,
+      "zone": 1
+    },
+    {
+      "code": "CPS",
+      "name": "Clapham South",
+      "timeToPrev": 156,
+      "timeToNext": 334,
+      "zone": 6
+    },
+    {
+      "code": "COL",
+      "name": "Colindale",
+      "timeToPrev": 334,
+      "timeToNext": 34,
+      "zone": 1
+    },
+    {
+      "code": "CLW",
+      "name": "Colliers Wood",
+      "timeToPrev": 34,
+      "timeToNext": 92,
+      "zone": 4
+    },
+    {
+      "code": "EFY",
+      "name": "East Finchley",
+      "timeToPrev": 92,
+      "timeToNext": 152,
+      "zone": 5
+    },
+    {
+      "code": "EDG",
+      "name": "Edgware",
+      "timeToPrev": 152,
+      "timeToNext": 89,
+      "zone": 5
+    },
+    {
+      "code": "ELE",
+      "name": "Elephant and Castle",
+      "timeToPrev": 89,
+      "timeToNext": 174,
+      "zone": 4
+    },
+    {
+      "code": "EMB",
+      "name": "Embankment",
+      "timeToPrev": 174,
+      "timeToNext": 204,
+      "zone": 1
+    },
+    {
+      "code": "EUS",
+      "name": "Euston",
+      "timeToPrev": 204,
+      "timeToNext": 97,
+      "zone": 6
+    },
+    {
+      "code": "FYC",
+      "name": "Finchley Central",
+      "timeToPrev": 97,
+      "timeToNext": 48,
+      "zone": 6
+    },
+    {
+      "code": "GGR",
+      "name": "Golders Green",
+      "timeToPrev": 48,
+      "timeToNext": 282,
+      "zone": 5
+    },
+    {
+      "code": "GST",
+      "name": "Goodge Street",
+      "timeToPrev": 282,
+      "timeToNext": 291,
+      "zone": 5
+    },
+    {
+      "code": "HMP",
+      "name": "Hampstead",
+      "timeToPrev": 291,
+      "timeToNext": 97,
+      "zone": 6
+    },
+    {
+      "code": "HND",
+      "name": "Hendon Central",
+      "timeToPrev": 97,
+      "timeToNext": 330,
+      "zone": 6
+    },
+    {
+      "code": "HBT",
+      "name": "High Barnet",
+      "timeToPrev": 330,
+      "timeToNext": 349,
+      "zone": 4
+    },
+    {
+      "code": "HIG",
+      "name": "Highgate",
+      "timeToPrev": 349,
+      "timeToNext": 126,
+      "zone": 6
+    },
+    {
+      "code": "KEN",
+      "name": "Kennington",
+      "timeToPrev": 126,
+      "timeToNext": 274,
+      "zone": 5
+    },
+    {
+      "code": "KTN",
+      "name": "Kentish Town",
+      "timeToPrev": 274,
+      "timeToNext": 168,
+      "zone": 2
+    },
+    {
+      "code": "KXX",
+      "name": "King's Cross St Pancras",
+      "timeToPrev": 168,
+      "timeToNext": 52,
+      "zone": 1
+    },
+    {
+      "code": "LSQ",
+      "name": "Leicester Square",
+      "timeToPrev": 52,
+      "timeToNext": 119,
+      "zone": 6
+    },
+    {
+      "code": "LON",
+      "name": "London Bridge",
+      "timeToPrev": 119,
+      "timeToNext": 352,
+      "zone": 4
+    },
+    {
+      "code": "MHE",
+      "name": "Mill Hill East",
+      "timeToPrev": 352,
+      "timeToNext": 328,
+      "zone": 5
+    },
+    {
+      "code": "MGT",
+      "name": "Moorgate",
+      "timeToPrev": 328,
+      "timeToNext": 260,
+      "zone": 4
+    },
+    {
+      "code": "MOR",
+      "name": "Morden",
+      "timeToPrev": 260,
+      "timeToNext": 294,
+      "zone": 3
+    },
+    {
+      "code": "MCR",
+      "name": "Mornington Crescent",
+      "timeToPrev": 294,
+      "timeToNext": 316,
+      "zone": 6
+    },
+    {
+      "code": "OLD",
+      "name": "Old Street",
+      "timeToPrev": 316,
+      "timeToNext": 265,
+      "zone": 3
+    },
+    {
+      "code": "OVL",
+      "name": "Oval",
+      "timeToPrev": 265,
+      "timeToNext": 178,
+      "zone": 4
+    },
+    {
+      "code": "SWM",
+      "name": "South Wimbledon",
+      "timeToPrev": 178,
+      "timeToNext": 285,
+      "zone": 4
+    },
+    {
+      "code": "STK",
+      "name": "Stockwell",
+      "timeToPrev": 285,
+      "timeToNext": 61,
+      "zone": 1
+    },
+    {
+      "code": "TBE",
+      "name": "Tooting Bec",
+      "timeToPrev": 61,
+      "timeToNext": 101,
+      "zone": 1
+    },
+    {
+      "code": "TBY",
+      "name": "Tooting Broadway",
+      "timeToPrev": 101,
+      "timeToNext": 146,
+      "zone": 4
+    },
+    {
+      "code": "TCR",
+      "name": "Tottenham Court Road",
+      "timeToPrev": 146,
+      "timeToNext": 345,
+      "zone": 3
+    },
+    {
+      "code": "TOT",
+      "name": "Totteridge and Whetstone",
+      "timeToPrev": 345,
+      "timeToNext": 221,
+      "zone": 6
+    },
+    {
+      "code": "TPK",
+      "name": "Tufnell Park",
+      "timeToPrev": 221,
+      "timeToNext": 306,
+      "zone": 3
+    },
+    {
+      "code": "WST",
+      "name": "Warren Street",
+      "timeToPrev": 306,
+      "timeToNext": 116,
+      "zone": 4
+    },
+    {
+      "code": "WLO",
+      "name": "Waterloo",
+      "timeToPrev": 116,
+      "timeToNext": 230,
+      "zone": 1
+    },
+    {
+      "code": "WFY",
+      "name": "West Finchley",
+      "timeToPrev": 230,
+      "timeToNext": 220,
+      "zone": 6
+    },
+    {
+      "code": "WSP",
+      "name": "Woodside Park",
+      "timeToPrev": 220,
+      "zone": 3
+    }
+  ],
+  "Piccadilly": [
+    {
+      "code": "ACT",
+      "name": "Acton Town",
+      "timeToNext": 62,
+      "zone": 4
+    },
+    {
+      "code": "ALP",
+      "name": "Alperton",
+      "timeToPrev": 62,
+      "timeToNext": 233,
+      "zone": 2
+    },
+    {
+      "code": "AGR",
+      "name": "Arnos Grove",
+      "timeToPrev": 233,
+      "timeToNext": 352,
+      "zone": 6
+    },
+    {
+      "code": "ARL",
+      "name": "Arsenal",
+      "timeToPrev": 352,
+      "timeToNext": 38,
+      "zone": 1
+    },
+    {
+      "code": "BCT",
+      "name": "Barons Court",
+      "timeToPrev": 38,
+      "timeToNext": 208,
+      "zone": 2
+    },
+    {
+      "code": "BOS",
+      "name": "Boston Manor",
+      "timeToPrev": 208,
+      "timeToNext": 203,
+      "zone": 5
+    },
+    {
+      "code": "BGR",
+      "name": "Bounds Green",
+      "timeToPrev": 203,
+      "timeToNext": 207,
+      "zone": 2
+    },
+    {
+      "code": "CRD",
+      "name": "Caledonian Road",
+      "timeToPrev": 207,
+      "timeToNext": 65,
+      "zone": 2
+    },
+    {
+      "code": "CFS",
+      "name": "Cockfosters",
+      "timeToPrev": 65,
+      "timeToNext": 61,
+      "zone": 5
+    },
+    {
+      "code": "COV",
+      "name": "Covent Garden",
+      "timeToPrev": 61,
+      "timeToNext": 287,
+      "zone": 2
+    },
+    {
+      "code": "ECM",
+      "name": "Ealing Common",
+      "timeToPrev": 287,
+      "timeToNext": 322,
+      "zone": 5
+    },
+    {
+      "code": "ECT",
+      "name": "Earl's Court",
+      "timeToPrev": 322,
+      "timeToNext": 99,
+      "zone": 5
+    },
+    {
+      "code": "ETE",
+      "name": "Eastcote",
+      "timeToPrev": 99,
+      "timeToNext": 295,
+      "zone": 1
+    },
+    {
+      "code": "FPK",
+      "name": "Finsbury Park",
+      "timeToPrev": 295,
+      "timeToNext": 60,
+      "zone": 5
+    },
+    {
+      "code": "GRD",
+      "name": "Gloucester Road",
+      "timeToPrev": 60,
+      "timeToNext": 94,
+      "zone": 5
+    },
+    {
+      "code": "GPK",
+      "name": "Green Park",
+      "timeToPrev": 94,
+      "timeToNext": 210,
+      "zone": 4
+    },
+    {
+      "code": "HMD",
+      "name": "Hammersmith (District and Picc)",
+      "timeToPrev": 210,
+      "timeToNext": 238,
+      "zone": 6
+    },
+    {
+      "code": "HTX",
+      "name": "Hatton Cross",
+      "timeToPrev": 238,
+      "timeToNext": 301,
+      "zone": 1
+    },
+    {
+      "code": "HTF",
+      "name": "Heathrow Terminal 4",
+      "timeToPrev": 301,
+      "timeToNext": 291,
+      "zone": 3
+    },
+    {
+      "code": "HRV",
+      "name": "Heathrow Terminal 5",
+      "timeToPrev": 291,
+      "timeToNext": 131,
+      "zone": 5
+    },
+    {
+      "code": "HRC",
+      "name": "Heathrow Terminals 123",
+      "timeToPrev": 131,
+      "timeToNext": 105,
+      "zone": 6
+    },
+    {
+      "code": "HDN",
+      "name": "Hillingdon",
+      "timeToPrev": 105,
+      "timeToNext": 132,
+      "zone": 3
+    },
+    {
+      "code": "HOL",
+      "name": "Holborn",
+      "timeToPrev": 132,
+      "timeToNext": 214,
+      "zone": 4
+    },
+    {
+      "code": "HRD",
+      "name": "Holloway Road",
+      "timeToPrev": 214,
+      "timeToNext": 60,
+      "zone": 3
+    },
+    {
+      "code": "HNC",
+      "name": "Hounslow Central",
+      "timeToPrev": 60,
+      "timeToNext": 216,
+      "zone": 6
+    },
+    {
+      "code": "HNE",
+      "name": "Hounslow East",
+      "timeToPrev": 216,
+      "timeToNext": 115,
+      "zone": 5
+    },
+    {
+      "code": "HNW",
+      "name": "Hounslow West",
+      "timeToPrev": 115,
+      "timeToNext": 44,
+      "zone": 5
+    },
+    {
+      "code": "HPC",
+      "name": "Hyde Park Corner",
+      "timeToPrev": 44,
+      "timeToNext": 169,
+      "zone": 4
+    },
+    {
+      "code": "ICK",
+      "name": "Ickenham",
+      "timeToPrev": 169,
+      "timeToNext": 110,
+      "zone": 5
+    },
+    {
+      "code": "KXX",
+      "name": "King's Cross St Pancras",
+      "timeToPrev": 110,
+      "timeToNext": 103,
+      "zone": 2
+    },
+    {
+      "code": "KNB",
+      "name": "Knightsbridge",
+      "timeToPrev": 103,
+      "timeToNext": 118,
+      "zone": 5
+    },
+    {
+      "code": "LSQ",
+      "name": "Leicester Square",
+      "timeToPrev": 118,
+      "timeToNext": 325,
+      "zone": 3
+    },
+    {
+      "code": "MNR",
+      "name": "Manor House",
+      "timeToPrev": 325,
+      "timeToNext": 244,
+      "zone": 6
+    },
+    {
+      "code": "NEL",
+      "name": "North Ealing",
+      "timeToPrev": 244,
+      "timeToNext": 247,
+      "zone": 1
+    },
+    {
+      "code": "NFD",
+      "name": "Northfields",
+      "timeToPrev": 247,
+      "timeToNext": 122,
+      "zone": 2
+    },
+    {
+      "code": "OAK",
+      "name": "Oakwood",
+      "timeToPrev": 122,
+      "timeToNext": 61,
+      "zone": 5
+    },
+    {
+      "code": "OST",
+      "name": "Osterley",
+      "timeToPrev": 61,
+      "timeToNext": 68,
+      "zone": 4
+    },
+    {
+      "code": "PRY",
+      "name": "Park Royal",
+      "timeToPrev": 68,
+      "timeToNext": 75,
+      "zone": 3
+    },
+    {
+      "code": "PIC",
+      "name": "Piccadilly Circus",
+      "timeToPrev": 75,
+      "timeToNext": 132,
+      "zone": 4
+    },
+    {
+      "code": "RLN",
+      "name": "Rayners Lane",
+      "timeToPrev": 132,
+      "timeToNext": 192,
+      "zone": 6
+    },
+    {
+      "code": "RUI",
+      "name": "Ruislip",
+      "timeToPrev": 192,
+      "timeToNext": 305,
+      "zone": 6
+    },
+    {
+      "code": "RUM",
+      "name": "Ruislip Manor",
+      "timeToPrev": 305,
+      "timeToNext": 130,
+      "zone": 6
+    },
+    {
+      "code": "RSQ",
+      "name": "Russell Square",
+      "timeToPrev": 130,
+      "timeToNext": 350,
+      "zone": 3
+    },
+    {
+      "code": "SEL",
+      "name": "South Ealing",
+      "timeToPrev": 350,
+      "timeToNext": 266,
+      "zone": 5
+    },
+    {
+      "code": "SHR",
+      "name": "South Harrow",
+      "timeToPrev": 266,
+      "timeToNext": 342,
+      "zone": 3
+    },
+    {
+      "code": "SKN",
+      "name": "South Kensington",
+      "timeToPrev": 342,
+      "timeToNext": 337,
+      "zone": 2
+    },
+    {
+      "code": "SGT",
+      "name": "Southgate",
+      "timeToPrev": 337,
+      "timeToNext": 296,
+      "zone": 2
+    },
+    {
+      "code": "SHL",
+      "name": "Sudbury Hill",
+      "timeToPrev": 296,
+      "timeToNext": 110,
+      "zone": 2
+    },
+    {
+      "code": "STN",
+      "name": "Sudbury Town",
+      "timeToPrev": 110,
+      "timeToNext": 56,
+      "zone": 3
+    },
+    {
+      "code": "TGR",
+      "name": "Turnham Green",
+      "timeToPrev": 56,
+      "timeToNext": 187,
+      "zone": 1
+    },
+    {
+      "code": "TPL",
+      "name": "Turnpike Lane",
+      "timeToPrev": 187,
+      "timeToNext": 134,
+      "zone": 1
+    },
+    {
+      "code": "UXB",
+      "name": "Uxbridge",
+      "timeToPrev": 134,
+      "timeToNext": 147,
+      "zone": 6
+    },
+    {
+      "code": "WGN",
+      "name": "Wood Green",
+      "timeToPrev": 147,
+      "zone": 3
+    }
+  ],
+  "Victoria": [
+    {
+      "code": "BHR",
+      "name": "Blackhorse Road",
+      "timeToNext": 321,
+      "zone": 6
+    },
+    {
+      "code": "BRX",
+      "name": "Brixton",
+      "timeToPrev": 321,
+      "timeToNext": 284,
+      "zone": 6
+    },
+    {
+      "code": "EUS",
+      "name": "Euston",
+      "timeToPrev": 284,
+      "timeToNext": 56,
+      "zone": 3
+    },
+    {
+      "code": "FPK",
+      "name": "Finsbury Park",
+      "timeToPrev": 56,
+      "timeToNext": 170,
+      "zone": 2
+    },
+    {
+      "code": "GPK",
+      "name": "Green Park",
+      "timeToPrev": 170,
+      "timeToNext": 248,
+      "zone": 5
+    },
+    {
+      "code": "HBY",
+      "name": "Highbury and Islington",
+      "timeToPrev": 248,
+      "timeToNext": 129,
+      "zone": 4
+    },
+    {
+      "code": "KXX",
+      "name": "King's Cross St Pancras",
+      "timeToPrev": 129,
+      "timeToNext": 90,
+      "zone": 6
+    },
+    {
+      "code": "OXC",
+      "name": "Oxford Circus",
+      "timeToPrev": 90,
+      "timeToNext": 225,
+      "zone": 5
+    },
+    {
+      "code": "PIM",
+      "name": "Pimlico",
+      "timeToPrev": 225,
+      "timeToNext": 255,
+      "zone": 3
+    },
+    {
+      "code": "SVS",
+      "name": "Seven Sisters",
+      "timeToPrev": 255,
+      "timeToNext": 156,
+      "zone": 4
+    },
+    {
+      "code": "STK",
+      "name": "Stockwell",
+      "timeToPrev": 156,
+      "timeToNext": 347,
+      "zone": 3
+    },
+    {
+      "code": "TTH",
+      "name": "Tottenham Hale",
+      "timeToPrev": 347,
+      "timeToNext": 250,
+      "zone": 4
+    },
+    {
+      "code": "VUX",
+      "name": "Vauxhall",
+      "timeToPrev": 250,
+      "timeToNext": 122,
+      "zone": 4
+    },
+    {
+      "code": "VIC",
+      "name": "Victoria",
+      "timeToPrev": 122,
+      "timeToNext": 147,
+      "zone": 1
+    },
+    {
+      "code": "WAL",
+      "name": "Walthamstow Central",
+      "timeToPrev": 147,
+      "timeToNext": 80,
+      "zone": 2
+    },
+    {
+      "code": "WST",
+      "name": "Warren Street",
+      "timeToPrev": 80,
+      "zone": 1
+    }
+  ],
+  "Waterloo_and_City": [
+    {
+      "code": "BNK",
+      "name": "Bank",
+      "timeToNext": 160,
+      "zone": 1
+    },
+    {
+      "code": "WLO",
+      "name": "Waterloo",
+      "timeToPrev": 160,
+      "zone": 4
+    }
+  ]
+}
