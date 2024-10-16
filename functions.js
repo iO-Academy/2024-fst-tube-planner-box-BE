@@ -6,14 +6,25 @@ const connection = mysql.createConnection({
     database: 'tube_info'
 })
 const getTubes = () => async (request, response) => {
-
     const db = await connection
     const tubeStops =  await db.query('SELECT `name`, `code`, `line` FROM `tube_info` ORDER BY `line`, `name`')
     response.json(tubeStops)
 }
 
-getRoute = () => (request, response) => {
-    response.send('<h1>journey </h1>')
+const getRoute = () => async (request, response) => {
+    const from = request.query.from
+    const to = request.query.to
+    const db = await connection
+
+    const route = await db.query(
+        'SELECT `name`, `code`, `line` FROM `tube_info` WHERE `name` = ? OR `name` = ?',
+        [from, to]
+    )
+
+    response.json({
+        from: from,
+        to: to
+    })
 }
 
 module.exports = {getTubes, getRoute}
