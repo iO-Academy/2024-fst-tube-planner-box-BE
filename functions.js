@@ -25,6 +25,7 @@ const getRoute = () => async (request, response) => {
         [fromCode, toCode])
     const routeLine = findingLinesQuery[0].line
 
+    // const lineDetails = await db.query
 
 
     let route = await db.query(
@@ -33,9 +34,17 @@ const getRoute = () => async (request, response) => {
     )
     console.log(route)
 
+    if(route.length < 1) {
+        route = await db.query(
+            'SELECT * FROM tube_info WHERE `name` BETWEEN ? AND ? AND `line` = ?',
+            [fromCode, toCode, routeLine]
+        )
+        route = route.reverse()
+    }
+
+
 
     response.json(route)
-
 }
 
 module.exports = {getTubes, getRoute}
