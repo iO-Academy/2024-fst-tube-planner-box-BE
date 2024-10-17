@@ -25,10 +25,13 @@ const getRoute = () => async (request, response) => {
     const findingLinesQuery = await db.query("SELECT code, line, COUNT(line) AS `station_count` FROM `tube_info` WHERE `code` = ? OR `code` = ? GROUP BY `line` HAVING `station_count` > 1",
         [fromCode, toCode])
 
-    // let routeLine = ''
-    // if (routeLine > 0) {
+    if (findingLinesQuery.length < 1)
+    {
+        routeLine = ''
+    } else {
         routeLine = findingLinesQuery[0].line
-    // }
+
+    }
 
 
 
