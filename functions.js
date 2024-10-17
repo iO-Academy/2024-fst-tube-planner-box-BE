@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
 })
 const getTubes = () => async (request, response) => {
     const db = await connection
-    const tubeStops =  await db.query('SELECT `name`, `code`, `line` FROM `tube_info` ORDER BY `line`, `name`')
+    const tubeStops =  await db.query('SELECT `name`, `code`, `line`, `id` FROM `tube_info` ORDER BY `line`, `id`;')
     response.json(tubeStops)
 }
 
@@ -18,13 +18,18 @@ const getRoute = () => async (request, response) => {
 
     const fromCode = from.slice(-3)
     const toCode = to.slice(-3)
-    console.log(fromCode)
-    console.log(toCode)
     const db = await connection
+
+
+    
+
 
     const findingLinesQuery = await db.query("SELECT code, line, COUNT(line) AS `station_count` FROM `tube_info` WHERE `code` = ? OR `code` = ? GROUP BY `line` HAVING `station_count` > 1",
         [fromCode, toCode])
 
+
+
+    
     if (findingLinesQuery.length < 1)
     {
         routeLine = ''
@@ -32,25 +37,25 @@ const getRoute = () => async (request, response) => {
         routeLine = findingLinesQuery[0].line
 
     }
+    const getFromId = await db.query("SELECT `id` FROM `tube_info` WHERE `code` = ? AND `line` = ?", [fromCode, routeLine])
+    const getToId = await db.query("SELECT `id` FROM `tube_info` WHERE `code` = ? AND `line` = ?", [toCode, routeLine])
 
 
+    const fromID = getFromId[0].id
+    const toID = getToId[0].id
 
     let route = await db.query(
-        'SELECT * FROM tube_info WHERE `code` BETWEEN ? AND ? AND `line` = ?',
-        [toCode, fromCode, routeLine]
+        'SELECT * FROM tube_info WHERE (`id` BETWEEN ? AND ?) AND `line` = ?',
+        [toID, fromID, routeLine]
     )
-
-
+    
     if(route.length < 1) {
         route = await db.query(
-            'SELECT * FROM tube_info WHERE `code` BETWEEN ? AND ? AND `line` = ?',
-            [fromCode, toCode, routeLine]
+            'SELECT * FROM tube_info WHERE `id` BETWEEN ? AND ? AND `line` = ? ORDER BY `id` DESC ',
+            [fromID, toID, routeLine]
         )
-        route = route.reverse()
+        console.log('i am running')
     }
-
-
-    console.log(route)
     response.json(route)
 }
 
