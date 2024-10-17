@@ -20,16 +20,9 @@ const getRoute = () => async (request, response) => {
     const toCode = to.slice(-3)
     const db = await connection
 
-
-    
-
-
     const findingLinesQuery = await db.query("SELECT code, line, COUNT(line) AS `station_count` FROM `tube_info` WHERE `code` = ? OR `code` = ? GROUP BY `line` HAVING `station_count` > 1",
         [fromCode, toCode])
 
-
-
-    
     if (findingLinesQuery.length < 1)
     {
         routeLine = ''
@@ -40,10 +33,17 @@ const getRoute = () => async (request, response) => {
     const getFromId = await db.query("SELECT `id` FROM `tube_info` WHERE `code` = ? AND `line` = ?", [fromCode, routeLine])
     const getToId = await db.query("SELECT `id` FROM `tube_info` WHERE `code` = ? AND `line` = ?", [toCode, routeLine])
 
+    let fromID = ''
+    let toID = ''
 
-    const fromID = getFromId[0].id
-    const toID = getToId[0].id
-
+    if (getFromId.length < 1 || getToId.length < 1) {
+            toID
+            fromID
+    } else {
+            fromID = getFromId[0].id
+            toID = getToId[0].id
+    }
+    
     let route = await db.query(
         'SELECT * FROM tube_info WHERE (`id` BETWEEN ? AND ?) AND `line` = ?',
         [toID, fromID, routeLine]
@@ -54,7 +54,6 @@ const getRoute = () => async (request, response) => {
             'SELECT * FROM tube_info WHERE `id` BETWEEN ? AND ? AND `line` = ? ORDER BY `id` DESC ',
             [fromID, toID, routeLine]
         )
-        console.log('i am running')
     }
     response.json(route)
 }
