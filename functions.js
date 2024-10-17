@@ -19,6 +19,7 @@ const getRoute = () => async (request, response) => {
     const fromCode = from.slice(-3)
     const toCode = to.slice(-3)
     console.log(fromCode)
+    console.log(toCode)
     const db = await connection
 
     const findingLinesQuery = await db.query("SELECT code, line, COUNT(line) AS `station_count` FROM `tube_info` WHERE `code` = ? OR `code` = ? GROUP BY `line` HAVING `station_count` > 1",
@@ -29,21 +30,21 @@ const getRoute = () => async (request, response) => {
 
 
     let route = await db.query(
-        'SELECT * FROM tube_info WHERE `name` BETWEEN ? AND ? AND `line` = ?',
+        'SELECT * FROM tube_info WHERE `code` BETWEEN ? AND ? AND `line` = ?',
         [toCode, fromCode, routeLine]
     )
-    console.log(route)
+
 
     if(route.length < 1) {
         route = await db.query(
-            'SELECT * FROM tube_info WHERE `name` BETWEEN ? AND ? AND `line` = ?',
+            'SELECT * FROM tube_info WHERE `code` BETWEEN ? AND ? AND `line` = ?',
             [fromCode, toCode, routeLine]
         )
         route = route.reverse()
     }
 
 
-
+    console.log(route)
     response.json(route)
 }
 
