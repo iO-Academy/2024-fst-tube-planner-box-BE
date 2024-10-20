@@ -12,6 +12,6 @@ const mysql = require("promise-mysql");
 
 app.get('/', getTubes())
 
-app.get(`/route`, getRoute())
+app.get('/route', getRoute())
 
 app.listen(3000)

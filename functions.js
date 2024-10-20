@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
 })
 const getTubes = () => async (request, response) => {
     const db = await connection
-    const tubeStops =  await db.query('SELECT `name`, `code`, `line`, `id` FROM `tube_info` ORDER BY `line`, `id`;')
+    const tubeStops =  await db.query('SELECT * FROM `tube_info` ORDER BY `line`, `id`;')
     response.json(tubeStops)
 }
 
@@ -28,7 +28,6 @@ const getRoute = () => async (request, response) => {
         routeLine = ''
     } else {
         routeLine = findingLinesQuery[0].line
-
     }
     const getFromId = await db.query("SELECT `id` FROM `tube_info` WHERE `code` = ? AND `line` = ?", [fromCode, routeLine])
     const getToId = await db.query("SELECT `id` FROM `tube_info` WHERE `code` = ? AND `line` = ?", [toCode, routeLine])
